@@ -42,3 +42,10 @@ Since this is only a demo, recurring costs were kept in mind and the app is host
 `cloudflared tunnel --protocol http2 --url http://localhost:8051`
 
 The tunnel requires an active connection from the host so, please contact me to coordinate the Cloudflare Tunnel setup and activation before accessing the application. I would be happy to coordinate a time for a free demo and conversation!
+
+Below are snippets of the application in work on a PC and mobile phone:
+
+<img width="1895" height="1033" alt="image" src="https://github.com/user-attachments/assets/78486572-6aa1-4303-b8a3-e9780459069a" />
+<img width="720" height="1600" alt="image" src="https://github.com/user-attachments/assets/9b4d1705-b0d2-4624-9072-13393e84ea4d" />
+
+
