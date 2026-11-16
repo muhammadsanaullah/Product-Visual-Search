@@ -29,12 +29,16 @@ Build the Docker image:
 
 Run the container:
 
-`docker run -p 8501:8501 -v /path/to/dataset:/data/project:ro -v /path/to/artifacts:/data/artifacts abo-visual-search`
+`docker run -d --name abo-search-test -p 8051:8501 -v /path/to/dataset:/data/project:ro -v /path/to/artifacts:/data/artifacts --restart unless-stopped abo-visual-search`
 
 The application will be available at:
 
-http://localhost:8501
+http://localhost:8051
 
 The dataset and precomputed artifacts are mounted separately rather than bundled into the Docker image.
 
-Since this is only a demo, recurring costs were kept in mind and the app is hosted through a Cloudflare Tunnel running on the host machine instead of a paid VM or server. The tunnel requires an active connection from the host so, please contact me to coordinate the Cloudflare Tunnel setup and activation before accessing the application. I would be happy to coordinate a time for a free demo and conversation!
+Since this is only a demo, recurring costs were kept in mind and the app is hosted through a Cloudflare Tunnel running on the host machine instead of a paid VM or server. This can be set up using:
+
+`cloudflared tunnel --protocol http2 --url http://localhost:8051`
+
+The tunnel requires an active connection from the host so, please contact me to coordinate the Cloudflare Tunnel setup and activation before accessing the application. I would be happy to coordinate a time for a free demo and conversation!
