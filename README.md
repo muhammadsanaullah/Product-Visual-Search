@@ -36,3 +36,5 @@ The application will be available at:
 http://localhost:8501
 
 The dataset and precomputed artifacts are mounted separately rather than bundled into the Docker image.
+
+Since this is only a demo, recurring costs were kept in mind and the app is hosted through a Cloudflare Tunnel running on the host machine instead of a paid VM or server. The tunnel requires an active connection from the host so, please contact me to coordinate the Cloudflare Tunnel setup and activation before accessing the application. I would be happy to coordinate a time for a free demo and conversation!
