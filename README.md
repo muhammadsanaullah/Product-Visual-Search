@@ -15,24 +15,21 @@ top matches are displayed.
 
 Install required dependencies:
 
-pip install -r requirements.txt
+`pip install -r requirements.txt`
 
 Set the dataset and artifact directories using the environment variables DATASET_DIR and ARTIFACT_DIR, then launch the application:
 
-streamlit run app.py
+`streamlit run app.py`
 
 ### Docker
 
 Build the Docker image:
 
-docker build -t abo-visual-search .
+`docker build -t abo-visual-search .`
 
 Run the container:
 
-docker run -p 8501:8501 \
-  -v /path/to/dataset:/data/project:ro \
-  -v /path/to/artifacts:/data/artifacts \
-  abo-visual-search
+`docker run -p 8501:8501 -v /path/to/dataset:/data/project:ro -v /path/to/artifacts:/data/artifacts abo-visual-search`
 
 The application will be available at:
 
