@@ -1,0 +1,23 @@
+
+# Dataset files are mounted at runtime, not copied into image
+images/
+listings/
+*.tar
+
+# Development notebooks
+*.ipynb
+
+# Local environments and caches
+.venv/
+venv/
+__pycache__/
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Git
+.git/
+.gitignore
+
+# Local reports and temporary files
+*.log
+.DS_Store

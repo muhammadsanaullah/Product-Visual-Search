@@ -1,0 +1,9 @@
+streamlit
+torch==2.5.1
+torchvision==0.20.1
+open_clip_torch
+faiss-cpu
+numpy==1.26.4
+pandas
+Pillow
+pyarrow==18.1.0
