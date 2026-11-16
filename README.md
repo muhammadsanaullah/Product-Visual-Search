@@ -45,7 +45,7 @@ The tunnel requires an active connection from the host so, please contact me to 
 
 Below are snippets of the application in work on a PC and mobile phone:
 
-<img width="1895" height="1033" alt="image" src="https://github.com/user-attachments/assets/78486572-6aa1-4303-b8a3-e9780459069a" />
-<img width="720" height="1600" alt="image" src="https://github.com/user-attachments/assets/9b4d1705-b0d2-4624-9072-13393e84ea4d" />
+<img width="915" height="500" alt="image" src="https://github.com/user-attachments/assets/78486572-6aa1-4303-b8a3-e9780459069a" />
+<img width="360" height="800" alt="image" src="https://github.com/user-attachments/assets/9b4d1705-b0d2-4624-9072-13393e84ea4d" />
 
 
